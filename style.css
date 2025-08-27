@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"roboto", sans-serif;
+}
+.header,main{
+    background-color: #1f2937;
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-bottom: 48px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+.links{
+    display: flex;
+    gap:16px;
+}
+.links link{
+    font-size: 18px;
+}
+.links a{
+    text-decoration: none;
+    color: #a9a9aa;
+}
+h4{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.left{
+    width:50%
+}
+.left p{
+    font-size: 18px;
+    color:#a9a9aa;
+}
+.right{
+    width: 50%;
+    background-color: grey;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sign-up-btn{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.info{
+    text-align: center;
+    margin-top:24px;
+    margin-bottom: 33px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.info-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    margin-bottom: 40px;
+
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* spacing between the boxes */
+    flex-wrap: wrap; /* makes it responsive */
+}
+
+.info-box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3b82f6; /* blue border */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+.info-box p{
+    text-align: center;
+    padding-top: 260px;
+}
+.quote-section{
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #E5E7EB;
+}
+.quote-section p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.author{
+    margin-right:0;
+    text-align: right;
+}
+.contact-section{
+   margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 42px 110px;
+    background-color: #2882F6;
+    display: flex;
+    justify-content: space-between;
+}
+.blue-box p{
+    color:white;
+}
+.btn{
+    border: 1px;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 34px;
+    font-size: 14px;
+}
