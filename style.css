@@ -132,12 +132,13 @@ h4{
     font-weight: 300;
     font-style: italic;
 }
-.author{
+h3{
     margin-right:0;
+    font-weight: 700;
     text-align: right;
 }
 .contact-section{
-   margin-top: 5%;
+    margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 18%;
     margin-right: 18%;
@@ -145,12 +146,25 @@ h4{
     background-color: #2882F6;
     display: flex;
     justify-content: space-between;
+    border-radius: 12px;
 }
-.blue-box p{
-    color:white;
+.box p{
+    color:rgb(209, 203, 203);
+}
+.box .bold{
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 8px;
 }
 .btn{
-    border: 1px;
+    background-color:#2882F6;
+    color:white;
+    padding: 12px 24px;
+    border: white solid 3px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
 }
 .footer{
     background-color: #1F2937;
